@@ -1,0 +1,25 @@
+rules:
+  drop_table_column:
+    enabled: true
+    severity: high
+  truncate_table:
+    enabled: true
+    severity: high
+  add_not_null_without_default:
+    enabled: true
+    severity: high
+  create_index_without_concurrently:
+    enabled: true
+    severity: medium
+  alter_column_type:
+    enabled: true
+    severity: medium
+  rename_column_or_table:
+    enabled: true
+    severity: medium
+  add_constraint_without_not_valid:
+    enabled: true
+    severity: medium
+  update_delete_without_where:
+    enabled: true
+    severity: high
